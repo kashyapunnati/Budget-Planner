@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #1f2937;
+    min-height: 100vh;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #2563eb;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #1d4ed8;
+    margin-bottom: 18px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+select:focus,
+input:focus {
+    border-color: #2563eb;
+}
+
+button {
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.summary-card {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+.summary-card h3 {
+    color: #2563eb;
+    margin-bottom: 8px;
+}
+
+.summary-card p {
+    margin: 5px 0;
+}
+
+.over-budget {
+    border-left: 5px solid #dc2626;
+    background: #fef2f2;
+}
+
+.warning {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+.expense-item {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.expense-item h3 {
+    color: #374151;
+    margin-bottom: 5px;
+}
+
+.expense-item p {
+    margin: 4px 0;
+}
+
+.delete-btn {
+    background: #dc2626;
+    margin-top: 8px;
+}
+
+.delete-btn:hover {
+    background: #b91c1c;
+}
+
+.chart-section {
+    min-height: 400px;
+}
+
+#budgetChart {
+    max-height: 350px;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
